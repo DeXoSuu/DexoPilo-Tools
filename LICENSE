@@ -1,24 +1,21 @@
-MIT License
-
-Copyright (c) 2024 DexoPilo, DeXoSuu Potopilo
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-For more information, please visit:
-- Discord server: https://discord.gg/ct72FAvWxh
+# Copyright (c) DexoPilo
+# See the file 'LICENSE' for copying permission
+# ----------------------------------------------------------------------------------------------------------------------------------------------------------|
+# EN: 
+#     - Do not touch or modify the code below. If there is an error, please contact the owner, but under no circumstances should you touch the code.
+#     - Do not resell this tool, do not credit it to yours.
+name_tool = "Dexo_Pilo"
+type_tool = "Multi-Tools"
+version_tool = "1.0"
+coding_tool = "Python 3"
+language_tool = "EN"
+creator = "DeXoSuu and Potopilo"
+platform = "Windows 10/11 & Linux"
+discord_server = "discord.gg/z25NeaqeEc"
+website = "dexopilo.shop"
+github_tool = "github.com/DeXoSuu/DexoPilo-Tools"
+telegram = "t.me/dexopilotools"
+url_config = "https://github.com/DeXoSuu/DexoPilo-Tools/blob/main/Settings/Program/Config/Config.py"
+url_downloads = "https://github.com/DeXoSuu/DexoPilo-Tools/archive/refs/tags/DexoPilo.zip"
+license = "https://github.com/DeXoSuu/DexoPilo-Tools/blob/main/LICENSE"
+copyright = "Copyright (c) DexoPilo 'LICENSE'"
