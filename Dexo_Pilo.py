@@ -52,7 +52,7 @@ option_23 = "Password-Encrypted"
 option_24 = "Search-In-DataBase"
 option_25 = "Dark-Web-Links"
 option_26 = "Ip-Generator"
-option_27 = "Soon"
+option_27 = "BruteForce"
 option_28 = "Soon"
 option_29 = "Soon"
 option_30 = "Soon"
@@ -219,11 +219,18 @@ menu1 = f""" ╔═ {option_info_txt}                                           
  ╚═╦═════════╣ Network Scanner ╠═════════╦══════════════╣ Osint ╠══════════════╦════════════╣ Utilities ╠════════════╩═
    ║         ╚═════════════════╝         ║              ╚═══════╝              ║            ╚═══════════╝
    ╠═ {option_01_txt                    }╠═ {option_11_txt                    }╠═ {option_21_txt}
+   ╠═ {option_02_txt                    }╠═ {option_12_txt                    }╠═ {option_22_txt}
    ╠═ {option_03_txt                    }╠═ {option_13_txt                    }╠═ {option_23_txt}
    ╠═ {option_04_txt                    }╠═ {option_14_txt                    }╠═ {option_24_txt}
    ╠═ {option_05_txt                    }╠═ {option_15_txt                    }╠═ {option_25_txt}
-   ╚═ {option_06_txt                    }╠═ {option_16_txt                    }╚═ {option_26_txt}
-           {"".ljust(30)[:30]           }╚═ {option_17_txt                    }
+   ╠═ {option_06_txt                    }╠═ {option_16_txt                    }╠═ {option_26_txt}
+   ╠═ {option_07_txt                    }╠═ {option_17_txt                    }╠═ {option_27_txt}
+   ╠═ {option_08_txt                    }╠═ {option_18_txt                    }╠═ {option_28_txt}
+   ╠═ {option_09_txt                    }╠═ {option_19_txt                    }╠═ {option_29_txt}
+   ╚═ {option_10_txt                    }╚═ {option_20_txt                    }╚═ {option_30_txt}
+
+
+       {"".ljust(30)[:30]           }
 
 """
 
