@@ -1,9 +1,3 @@
-# Copyright (c) DexoPilo
-# See the file 'LICENSE' for copying permission
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------|
-# EN: 
-#     - Do not touch or modify the code below. If there is an error, please contact the owner, but under no circumstances should you touch the code.
-#     - Do not resell this tool, do not credit it to yours.
 from Config.Util import *
 from Config.Config import *
 try:
@@ -30,7 +24,7 @@ try:
         ErrorToken()
 
     default_status = f"Nuking By {github_tool}"
-    custom_status = f"{custom_status_input} | RedTiger"
+    custom_status = f"{custom_status_input} | DexoPilo"
         
     modes = cycle(["light", "dark"])
 
