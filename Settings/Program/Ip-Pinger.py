@@ -1,9 +1,3 @@
-# Copyright (c) DexoPilo
-# See the file 'LICENSE' for copying permission
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------|
-# EN: 
-#     - Do not touch or modify the code below. If there is an error, please contact the owner, but under no circumstances should you touch the code.
-#     - Do not resell this tool, do not credit it to yours.
 from Config.Util import *
 from Config.Config import *
 try:
@@ -24,7 +18,7 @@ try:
             sock.connect((hostname, port))
             data = b'\x00' * bytes
             sock.sendall(data)
-            end_time = time.time() 
+            end_time = time.time()
             elapsed_time = (end_time - start_time) * 1000 
             print(f'{BEFORE + current_time_hour() + AFTER} {ADD} Hostname: {white}{hostname}{red} time: {white}{elapsed_time:.2f}ms{red} port: {white}{port}{red} bytes: {white}{bytes}{red} status: {white}succeed{red}')
         except:
