@@ -6,7 +6,7 @@ except Exception as e:
    ErrorModule(e)
    
    
-Title("Roblox User Info")
+Title("Roblox ID Info")
 
 try:
     user_id = input(f"\n{BEFORE + current_time_hour() + AFTER} {INPUT} ID -> {color.RESET}")
