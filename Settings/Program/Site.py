@@ -8,8 +8,8 @@ except Exception as e:
 Title("Site")
 
 print(f"""
-{white}[{red}02{white}] {red}->{white} Discord
-{white}[{red}03{white}] {red}->{white} Github
+{white}[{yellow}02{white}] {yellow}->{white} Discord
+{white}[{yellow}03{white}] {yellow}->{white} Github
 """)
 
 try:
