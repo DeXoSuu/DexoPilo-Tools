@@ -1,9 +1,3 @@
-# Copyright (c) DexoPilo
-# See the file 'LICENSE' for copying permission
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------|
-# EN: 
-#     - Do not touch or modify the code below. If there is an error, please contact the owner, but under no circumstances should you touch the code.
-#     - Do not resell this tool, do not credit it to yours.
 from Config.Util import *
 from Config.Config import *
 try:
@@ -267,7 +261,7 @@ try:
             ██║  ██║ ██║   ██║  ╚███╔╝ 
             ██║  ██║ ██║   ██║  ██╔██╗ 
             ██████╔╝ ╚██████╔╝ ██╔╝ ██╗ 
-            ╚═════╝   ╚═════╝  ╚═╝  ╚═╝   Template By RedTiger (https://{github_tool})
+            ╚═════╝   ╚═════╝  ╚═╝  ╚═╝
                                         
                                                                                    
             Doxed By : {by}
@@ -384,7 +378,7 @@ try:
            ╚═══════════════════════════════════════════════════════════════════════════════════════╝
     ''')
 
-    print(f"{BEFORE + current_time_hour() + AFTER} {INFO} The DOX {white}\"{name_file}\"{red} was sent to: {white}\"{dox_path_relative}\"")
+    print(f"{BEFORE + current_time_hour() + AFTER} {INFO} The DOX {white}\"{name_file}\"{yellow} was sent to: {white}\"{dox_path_relative}\"")
     Continue()
     Reset()
 except Exception as e:
