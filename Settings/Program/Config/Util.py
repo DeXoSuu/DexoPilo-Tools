@@ -23,7 +23,7 @@ except Exception as e:
 
 color_webhook = 0xFFFF00
 username_webhook = name_tool
-avatar_webhook = 'https://cdn.discordapp.com/attachments/1268900329605300234/1276010081665683497/RedTiger-Logo.png?ex=66cf38be&is=66cde73e&hm=696c53b4791044ca0495d87f92e6d603e8383315d2ebdd385aaccfc6dbf6aa77&'
+avatar_webhook = 'https://cdn.discordapp.com/attachments/1287456104502005815/1288017719425241139/DexoPilo_Logo.png?ex=66f3a77a&is=66f255fa&hm=58f5be43d753d09bc9de6ba74e58c06b654eed1a0698c4f79bfb2607fc321e80&'
 
 color = colorama.Fore
 red = color.RED
@@ -44,8 +44,8 @@ def current_time_day_hour():
 def current_time_hour():
     return datetime.datetime.now().strftime('%H:%M:%S')
 
-BEFORE = f'{red}[{white}'
-AFTER = f'{red}]'
+BEFORE = f'{yellow}[{white}'
+AFTER = f'{yellow}]'
 
 BEFORE_GREEN = f'{green}[{white}'
 AFTER_GREEN = f'{green}]'
