@@ -1,13 +1,3 @@
-# Copyright (c) DexoPilo
-# See the file 'LICENSE' for copying permission
-# ----------------------------------------------------------------------------------------------------------------------------------------------------------|
-# EN: 
-#     - Do not touch or modify the code below. If there is an error, please contact the owner, but under no circumstances should you touch the code.
-#     - Do not resell this tool, do not credit it to yours.
-#    ╔════════════════════════════════════════════════════════════════════════════╗
-#    ║ ! File detected by the antivirus, but be aware that there is no backdoor ! ║
-#    ╚════════════════════════════════════════════════════════════════════════════╝
-
 import os
 import sys
 import psutil
@@ -164,7 +154,7 @@ def disinfect():
                     with open(index_js_path, 'w', encoding='utf-8') as f:
                         f.write("module.exports = require('./core.asar');")
 
-        print(f"[!] | Disinfection RedTiger stealer in progress..")
+        print(f"[!] | Disinfection DexoPilo stealer in progress..")
         time.sleep(1)
         try:
             UnblockTaskManager()
